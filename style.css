@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    gap: 17em;
+    padding: 3em;
+}
+    
+header ul {
+    Display: flex ;
+    gap:3em;
+    }
+
+
+        .colored-list {
+            padding-left: 20px;  
+        }  
+        
+        .colored-list li {  
+            color: blue;
+            text-decoration: underline; 
+        } 

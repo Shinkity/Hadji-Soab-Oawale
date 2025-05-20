@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadji Soab Olawale - Premium Iron Rods</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+
+        .contact-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1581092921461-39b2f2a8b162?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            color: #f59e0b;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <!-- Hadji Soab Logo -->
+                <div class="logo flex items-center">
+                    <img src="./1.png" alt="logo" style="width:
+                    80px; height:auto">
+                    <span class="text-xl ml-2">Hadji Soab Olawale Nigeria Limited</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="hover:text-yellow-500 transition">Home</a>
+                <a href="#products" class="hover:text-yellow-500 transition">Products</a>
+                <a href="#about" class="hover:text-yellow-500 transition">About Us</a>
+                <a href="#testimonials" class="hover:text-yellow-500 transition">Testimonials</a>
+                <a href="#contact" class="hover:text-yellow-500 transition">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 px-4 py-2">
+            <a href="#home" class="block py-2 hover:text-yellow-500 transition">Home</a>
+            <a href="#products" class="block py-2 hover:text-yellow-500 transition">Products</a>
+            <a href="#about" class="block py-2 hover:text-yellow-500 transition">About Us</a>
+            <a href="#testimonials" class="block py-2 hover:text-yellow-500 transition">Testimonials</a>
+            <a href="#contact" class="block py-2 hover:text-yellow-500 transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white py-20 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center mb-6">
+                <!-- Large Logo in Hero Section -->
+                <div class="logo flex items-center text-4xl md:text-5xl">
+                    <img src="./1.png" alt="logo" style="width:
+                    80px; height:auto">
+                        
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    <span class="ml-3">Hadji Soab Olawale</span>
+                </div>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Premium Quality Iron Rods</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Strength, durability, and reliability for all your
+                construction needs</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#products"
+                    class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-lg transition duration-300">Our
+                    Products</a>
+                <a href="#contact"
+                    class="bg-transparent hover:bg-gray-800 border-2 border-white text-white font-bold py-3 px-8 rounded-lg transition duration-300">Contact
+                    Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 rounded-lg">
+                    <div class="bg-gray-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-shield-alt text-yellow-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">High Strength</h3>
+                    <p class="text-gray-600">Our iron rods meet the highest industry standards for strength and
+                        durability.</p>
+                </div>
+                <div class="text-center p-6 rounded-lg">
+                    <div class="bg-gray-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-certificate text-yellow-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Quality Certified</h3>
+                    <p class="text-gray-600">All products undergo rigorous quality checks to ensure premium standards.
+                    </p>
+                </div>
+                <div class="text-center p-6 rounded-lg">
+                    <div class="bg-gray-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-truck text-yellow-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Nationwide Delivery</h3>
+                    <p class="text-gray-600">We deliver to all major cities and construction sites across the country.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Our Premium Products</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">We offer a wide range of high-quality iron rods suitable for
+                    all types of construction projects.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="12mm.jpg" alt="12mm Iron Rod" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">12mm Iron Rod</h3>
+                        <p class="text-gray-600 mb-4">Perfect for medium-scale construction projects with excellent
+                            tensile strength.</p>
+                        <div class="flex justify-between items-center">
+
+                            <button
+                                class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="16mm.jpg" alt="16mm Iron Rod" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">16mm Iron Rod</h3>
+                        <p class="text-gray-600 mb-4">Ideal for heavy-duty construction with superior load-bearing
+                            capacity.</p>
+                        <div class="flex justify-between items-center">
+
+                            <button
+                                class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Product 3 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="10mm.jpg" alt="20mm Iron Rod" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">10mm Iron Rod</h3>
+                        <p class="text-gray-600 mb-4">For large-scale construction projects requiring maximum strength
+                            and durability.</p>
+                        <div class="flex justify-between items-center">
+
+                            <button
+                                class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="25mm.jpg" alt="25mm Iron Rod" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">25mm Iron Rod</h3>
+                        <p class="text-gray-600 mb-4">Extra heavy-duty rods for bridges, high-rises, and industrial
+                            structures.</p>
+                        <div class="flex justify-between items-center">
+
+                            <button
+                                class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="8mm.jpg" alt="8mm Iron Rod" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">8mm Iron Rod</h3>
+                        <p class="text-gray-600 mb-4">Lightweight yet strong, perfect for small projects and
+                            reinforcement.</p>
+                        <div class="flex justify-between items-center">
+
+                            <button
+                                class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="32mm.jpg" alt="8mm Iron Rod" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">32mm Iron Rod</h3>
+                        <p class="text-gray-600 mb-4">it ismostly used in construction of complex prooject such as
+                            dams,bridges,airport,e.t.c</p>
+
+                        <button
+                            class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="h-48 overflow-hidden">
+                    <img src="20mm.jpg" alt="10mm Iron Rod" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">10mm Iron Rod</h3>
+                    <p class="text-gray-600 mb-4">Versatile rods suitable for various construction applications.</p>
+                    <div class="flex justify-between items-center">
+
+                        <button
+                            class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-2 px-4 rounded transition duration-300">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12">
+            <button
+                class="bg-gray-900 hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+                View All Products
+            </button>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <div class="bg-gray-200 h-80 w-full rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Hadji Soab Olawale Iron Rods" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6">About Hadji Soab Olawale Iron Rods</h2>
+                    <p class="text-gray-600 mb-4">
+                        Established in 2005, Hadji Soab Olawale Iron Rods has grown to become a leading supplier of
+                        premium quality iron rods in Nigeria. Our commitment to quality and customer satisfaction has
+                        made us the preferred choice for contractors and builders nationwide.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        We source our materials from the most reputable manufacturers and subject them to rigorous
+                        quality control processes to ensure they meet international standards.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Our team of experienced professionals is dedicated to providing exceptional service, timely
+                        delivery, and expert advice to help you choose the right products for your construction needs.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+                            <span>15+ Years Experience</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+                            <span>Quality Certified</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+                            <span>Nationwide Delivery</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+                            <span>Competitive Pricing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">What Our Customers Say</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Don't just take our word for it - hear from some of our
+                    satisfied customers</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+
+                        <div>
+                            <h4 class="font-bold">Engr. Ganiyu Adedapo Ajadi</h4>
+                            <p class="text-gray-500 text-sm">Construction Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "We've been using Hadji Soab Olawale's iron rods for all our projects for the past 5 years. The
+                        quality is consistently excellent and their delivery is always on time."
+                    </p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+
+                        <div>
+                            <h4 class="font-bold">Engr Mrs. Shola Agboola</h4>
+                            <p class="text-gray-500 text-sm">Building Contractor</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "The 16mm rods I purchased for my last project exceeded my expectations. They were perfectly
+                        straight with no bends or defects. Will definitely order again."
+                    </p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+
+                        <div>
+                            <h4 class="font-bold">Esv.Gafar Adepoju Adeola</h4>
+                            <p class="text-gray-500 text-sm">Real Estate Developer</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "Their customer service is outstanding. They helped me calculate exactly how much material I
+                        needed for my project and even delivered it to my site the next day."
+                    </p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-bg text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+                <p class="max-w-2xl mx-auto">Have questions or ready to place an order? Get in touch with our team
+                    today.</p>
+            </div>
+
+           <form><a href="https://wa.me/2348094684929" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+            Message us on WhatsApp
+        </a>
+        </form><br>
+                </div>
+
+                <div class="md:w-1/2">
+                    <div class="bg-gray-900 bg-opacity-70 p-6 rounded-lg h-full">
+                        <h3 class="text-xl font-bold mb-6">Our Contact Information</h3>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-yellow-500 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Head Office</h4>
+                                    <p>U-turn bus-stop abule-egba lagos Nigeria</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <i class="fas fa-phone-alt text-yellow-500 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Phone Numbers</h4>
+                                    <p>+234 802 353 6523</p>
+                                    <p>+234 809 468 4929</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <i class="fas fa-envelope text-yellow-500 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Email</h4>
+                                    <p>info@hadjisoabolawale@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-clock text-yellow-500 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Working Hours</h4>
+                                    <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                    <p>Saturday: 9:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="logo flex items-center">
+                        <img src="./1.png" alt="logo" style="width:
+                        80px; height:auto">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor"> -->
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        <span class="text-xl ml-2">Hadji Soab Olawale</span>
+                    </div>
+                    <p class="text-gray-400 mt-2">Premium Quality Iron Rods for All Construction Needs</p>
+                </div>
+
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                    &copy; 2023 Hadji Soab Olawale Iron Rods. All Rights Reserved.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 text-sm transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 text-sm transition">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 text-sm transition">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
